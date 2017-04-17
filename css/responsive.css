@@ -1,0 +1,63 @@
+@media screen and (min-width: 480px){
+
+	/*************************************************
+      Two Column Layout-contact page
+	**************************************************/
+	#general_information{
+		width: 50%;
+		float: left;
+	}
+
+	#contact_details{
+		width: 40%;
+		float: right;
+	}
+   
+   /*************************************************
+      Two Column Layout-About page
+	**************************************************/
+
+	.profile_photo{
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+}
+
+
+@media screen and (min-width: 660px){
+
+	/********************************
+       Navigation
+	********************************/
+     nav{
+     	background: none;
+     	float: right;
+     	margin-right: 5%;
+     	font-size: 1.125em;
+     	width: 45%;
+     }
+
+     #logo{
+     	float: left;
+     	margin-left: 5%;
+     	text-align: left;
+        width: 45%;
+    }
+
+    h1{
+    	font-size: 2.5em !important;
+
+    }
+
+    h2{
+       font-size: 1em;
+       margin-bottom: 20px;
+    }
+
+    header{
+    	border-bottom: 5px solid #599a68;
+    	margin-bottom: 60px;
+    }
+}
+
